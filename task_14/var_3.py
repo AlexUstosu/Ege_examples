@@ -33,13 +33,5 @@
 
 #k * N + 2 = 23
 
-for i in range(2, 22):
-    x = 23
-    x_N = ''
-    while x > 0:
-        x_N += str(x % i)
-        x //= i
-    x_N = x_N[::-1]
-    if x_N[-1] == '2':
-        print(f'{i}')
+
 
